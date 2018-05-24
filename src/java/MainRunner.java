@@ -18,7 +18,7 @@ public class MainRunner extends Application
 
         stage.setScene(mainScene);
         stage.toFront();
-        stage.setResizable(true);
+        stage.setResizable(false);
         stage.show();
         stage.setOnCloseRequest(e -> Platform.exit());
     }

@@ -1,0 +1,32 @@
+#button
+{
+    -fx-background-radius: 5em;
+    -fx-border-radius: 20px;
+    -fx-font-size: 40px;
+    -fx-font-family: "Osaka";
+    -fx-background-color: rgba(0, 116, 116, 0.52);
+}
+
+#button:hover
+{
+    -fx-font-family: "Osaka";
+    -fx-border-radius: 100px;
+    -fx-background-color: rgba(0, 137, 224, 0.52);
+    -fx-font-size: 50px;
+}
+
+#counter
+{
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+#pane
+{
+    -fx-background-color: linear-gradient(to right, rgba(30,210,162,1) 0%, rgba(30,210,162,1) 21%, rgba(145,227,211,1) 57%, rgba(30,210,162,1) 71%, rgba(154,228,212,1) 94%, rgba(154,228,212,1) 100%);
+}
+
+#image
+{
+    -fx-border-style: solid;
+    -fx-border-radius: 20px;
+}
