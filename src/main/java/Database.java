@@ -1,3 +1,5 @@
+package main.java;
+
 import javax.swing.*;
 import java.io.File;
 import java.sql.*;
@@ -8,7 +10,7 @@ public class Database {
     private static String Database = dbPath + dbName;
     private static File dbFile = new File(Database);
 
-    public int getRitik() {
+    int getRitik() {
         return ritik;
     }
 
@@ -31,7 +33,7 @@ public class Database {
     }
 
     @Deprecated
-    private void connectDB() {
+    void connectDB() {
 
         if (!dbFile.isFile()){
             createDB();
