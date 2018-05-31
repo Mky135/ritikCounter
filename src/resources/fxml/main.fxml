@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainController">
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controller.mainController">
    <children>
       <ImageView fx:id="image" fitHeight="158.0" fitWidth="287.0" layoutX="146.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@IMG_6261.jpeg" />
+            <Image url="@../IMG_6261.jpeg" />
          </image>
       </ImageView>
       <Button fx:id="button" layoutX="153.0" layoutY="200.0" mnemonicParsing="false" onAction="#clicked" prefHeight="100.0" prefWidth="150.0" text="+1">
@@ -26,6 +26,6 @@
       </Label>
    </children>
    <stylesheets>
-      <URL value="@main.css" />
+      <URL value="@../main.css" />
    </stylesheets>
 </AnchorPane>

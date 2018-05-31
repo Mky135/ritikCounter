@@ -12,7 +12,7 @@ public class MainRunner extends Application
     {
         stage.setTitle("Ritik Counter");
 
-        Parent mainRoot = FXMLLoader.load(getClass().getResource("main.fxml"));
+        Parent mainRoot = FXMLLoader.load(getClass().getResource("fxml/main.fxml"));
 
         Scene mainScene = new Scene(mainRoot);
 
