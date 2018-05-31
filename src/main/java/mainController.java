@@ -1,6 +1,5 @@
-package controller;
+package main.java;
 
-import main.java.Database;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
@@ -14,18 +13,21 @@ public class mainController implements Initializable
 
     @FXML
     private Label counter;
-    
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources)
     {
-        counter.setText("Counter: " + 1);
+        database = new Database();
+        database.connectDB();
+        counter.setText("Counter: " + database.getRitik());
     }
 
     @FXML
     private void clicked()
     {
         int count = Integer.valueOf(counter.getText().substring(counter.getText().indexOf(" ")+1));
+        database.updateDB();
         count++;
         counter.setText("Counter: " + count);
     }
