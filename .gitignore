@@ -6,6 +6,7 @@
 
 # Out files
 out/**
+target
 
 # BlueJ files
 *.ctxt

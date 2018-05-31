@@ -1,5 +1,3 @@
-package main.java;
-
 import javax.swing.*;
 import java.io.File;
 import java.sql.*;
