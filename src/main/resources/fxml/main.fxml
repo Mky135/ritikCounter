@@ -19,6 +19,10 @@
          <font>
             <Font name="Osaka-Mono" size="60.0" />
          </font></Button>
+      <Button fx:id="refresh" layoutX="325.0" layoutY="5.0" mnemonicParsing="false" onAction="#refresh" prefHeight="50.0" prefWidth="125.0" text="Refresh">
+         <font>
+            <Font name="Osaka-Mono" size="20.0" />
+         </font></Button>
       <Label fx:id="counter" layoutX="78.0" layoutY="306.0" text="Counter: 1">
          <font>
             <Font name="Osaka" size="62.0" />

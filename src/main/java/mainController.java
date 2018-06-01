@@ -25,4 +25,10 @@ public class mainController implements Initializable {
         database.refreshDB();
         counter.setText("Counter: " + database.getRitik());
     }
+
+    @FXML
+    private void refresh(){
+        database.refreshDB();
+        counter.setText("Counter: " + database.getRitik());
+    }
 }
