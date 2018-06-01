@@ -5,17 +5,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MainRunner extends Application
-{
+public class MainRunner extends Application {
+
     @Override
-    public void start(Stage stage) throws Exception
-    {
+    public void start(Stage stage) throws Exception {
         stage.setTitle("Ritik Counter");
-
         Parent mainRoot = FXMLLoader.load(getClass().getResource("fxml/main.fxml"));
-
         Scene mainScene = new Scene(mainRoot);
-
         stage.setScene(mainScene);
         stage.toFront();
         stage.setResizable(false);
@@ -23,8 +19,5 @@ public class MainRunner extends Application
         stage.setOnCloseRequest(e -> Platform.exit());
     }
 
-    public static void main(String[] args)
-    {
-        launch(args);
-    }
+    public static void main(String[] args) { launch(args); }
 }
